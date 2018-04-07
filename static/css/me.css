@@ -2,7 +2,30 @@
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
 }
-
+.me-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.5em !important;
+}
+.me-padded-tb-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.me-padded-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.me-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.me-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.me-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
 .me-padded-tb-massive{
     padding-top: 5em !important;
     padding-bottom: 5em !important;
@@ -22,4 +45,9 @@
 
 .m-opacity-mini{
     opacity: 0.8!important;
+}
+
+/*-------------------展示-------------------*/
+.m-inline-block{
+    display: inline-block!important;
 }
