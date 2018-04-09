@@ -12,13 +12,14 @@
 <!--导航-->
 <nav class="ui inverted container attached segment me-padded-tb-mini">
     <div class="ui container">
-        <div class="ui inverted secondary menu">
+        <div class="ui inverted secondary menu stackable  ">
             <h2 class="ui teal header item">Blog</h2>
-            <a href="#" class="item"><i class="home icon"></i>首页</a>
-            <a href="#" class="item"><i class="idea icon"></i>分类</a>
-            <a href="#" class="item"><i class="tags icon"></i>标签</a>
-            <a href="#" class="item"><i class="info icon"></i>关于我</a>
-            <div class="right item">
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="blog.html" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
                 <div class="ui icon inverted gray input">
                     <input type="text" placeholder="Search...">
                     <i class="search link icon"></i>
@@ -26,16 +27,19 @@
             </div>
         </div>
     </div>
+    <a href="#" class="ui black icon button m-right-top m-mobile-show menu toggle">
+        <i class="icon sidebar"></i>
+    </a>
 </nav>
 
 <!--中间内容-->
-<div class="me-padded-tb-large">
+<div class="me-padded-tb-big m-container">
     <div class="ui container">
-        <div class="ui grid">
+        <div class="ui stackable grid">
             <!--左边博客内容部分-->
             <div class="eleven wide column">
-                <!--博客篇数-->
-                <div class="ui segment">
+                <!--博客篇数header-->
+                <div class="ui top attached segment">
                     <div class="ui middle aligned two column grid">
                         <div class="column">
                             <h3 class="ui teal header">博客</h3>
@@ -45,12 +49,375 @@
                         </div>
                     </div>
                 </div>
-                <!--博客内容-->
+                <!--博客内容content-->
+                <div class="ui attached segment">
+                    <div class="ui padded vertical segment me-padded-tb-large">
+                        <div class="ui mobile reversed stackable grid">
+                            <!--左侧文字-->
+                            <div class="eleven wide column">
+                                <h3 class="ui header">
+                                    生活是活给自己的
+                                </h3>
+                                <p class="m-text">
+                                    生而为人,我们要有自己的个性和想法，要学会洒脱，更要学会隐忍，只要活得快乐，怎样过都行。人活着，总是避免不了闲言碎语，最好 的回击就是持续沉默，这不是没有底线的忍让，而是最有力的回击。
+                                </p>
+                                <!--文字标签-->
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini link list horizontal">
+                                            <!--用户信息（头像+用户名）-->
+                                            <div class="item">
+                                                <img src="https://picsum.photos/100/100/?image=1005" alt="" class="ui avatar image">
+                                                <div class="content">
+                                                    <a class="header">甄焰鑫</a>
+                                                </div>
+                                            </div>
+                                            <!--发布时间-->
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2018-04-09
+                                            </div>
+                                            <!--浏览次数-->
+                                            <div class="item">
+                                                <i class="eye icon"></i>2312
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--标签-->
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label me-padded-tiny m-text-thin">认知升级</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右侧图片-->
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <h3></h3>
+                                    <br>
+                                    <img src="https://picsum.photos/800/450/?image=1005" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment me-padded-tb-large">
+                        <div class="ui  mobile reversed stackable grid">
+                            <!--左侧文字-->
+                            <div class="eleven wide column">
+                                <h3 class="ui header">
+                                    生活是活给自己的
+                                </h3>
+                                <p class="m-text">
+                                    生而为人,我们要有自己的个性和想法，要学会洒脱，更要学会隐忍，只要活得快乐，怎样过都行。人活着，总是避免不了闲言碎语，最好 的回击就是持续沉默，这不是没有底线的忍让，而是最有力的回击。
+                                </p>
+                                <!--文字标签-->
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini link list horizontal">
+                                            <!--用户信息（头像+用户名）-->
+                                            <div class="item">
+                                                <img src="https://picsum.photos/100/100/?image=1005" alt="" class="ui avatar image">
+                                                <div class="content">
+                                                    <a class="header">甄焰鑫</a>
+                                                </div>
+                                            </div>
+                                            <!--发布时间-->
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2018-04-09
+                                            </div>
+                                            <!--浏览次数-->
+                                            <div class="item">
+                                                <i class="eye icon"></i>2312
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--标签-->
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label me-padded-tiny m-text-thin">认知升级</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右侧图片-->
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <h3></h3>
+                                    <br>
+                                    <img src="https://picsum.photos/800/450/?image=1005" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment me-padded-tb-large">
+                        <div class="ui  mobile reversed stackable  grid">
+                            <!--左侧文字-->
+                            <div class="eleven wide column">
+                                <h3 class="ui header">
+                                    生活是活给自己的
+                                </h3>
+                                <p class="m-text">
+                                    生而为人,我们要有自己的个性和想法，要学会洒脱，更要学会隐忍，只要活得快乐，怎样过都行。人活着，总是避免不了闲言碎语，最好 的回击就是持续沉默，这不是没有底线的忍让，而是最有力的回击。
+                                </p>
+                                <!--文字标签-->
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini link list horizontal">
+                                            <!--用户信息（头像+用户名）-->
+                                            <div class="item">
+                                                <img src="https://picsum.photos/100/100/?image=1005" alt="" class="ui avatar image">
+                                                <div class="content">
+                                                    <a class="header">甄焰鑫</a>
+                                                </div>
+                                            </div>
+                                            <!--发布时间-->
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2018-04-09
+                                            </div>
+                                            <!--浏览次数-->
+                                            <div class="item">
+                                                <i class="eye icon"></i>2312
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--标签-->
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label me-padded-tiny m-text-thin">认知升级</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右侧图片-->
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <h3></h3>
+                                    <br>
+                                    <img src="https://picsum.photos/800/450/?image=1005" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment me-padded-tb-large">
+                        <div class="ui  mobile reversed stackable  grid">
+                            <!--左侧文字-->
+                            <div class="eleven wide column">
+                                <h3 class="ui header">
+                                    生活是活给自己的
+                                </h3>
+                                <p class="m-text">
+                                    生而为人,我们要有自己的个性和想法，要学会洒脱，更要学会隐忍，只要活得快乐，怎样过都行。人活着，总是避免不了闲言碎语，最好 的回击就是持续沉默，这不是没有底线的忍让，而是最有力的回击。
+                                </p>
+                                <!--文字标签-->
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini link list horizontal">
+                                            <!--用户信息（头像+用户名）-->
+                                            <div class="item">
+                                                <img src="https://picsum.photos/100/100/?image=1005" alt="" class="ui avatar image">
+                                                <div class="content">
+                                                    <a class="header">甄焰鑫</a>
+                                                </div>
+                                            </div>
+                                            <!--发布时间-->
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2018-04-09
+                                            </div>
+                                            <!--浏览次数-->
+                                            <div class="item">
+                                                <i class="eye icon"></i>2312
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--标签-->
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label me-padded-tiny m-text-thin">认知升级</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右侧图片-->
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <h3></h3>
+                                    <br>
+                                    <img src="https://picsum.photos/800/450/?image=1005" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment me-padded-tb-large">
+                        <div class="ui  mobile reversed stackable  grid">
+                            <!--左侧文字-->
+                            <div class="eleven wide column">
+                                <h3 class="ui header">
+                                    生活是活给自己的
+                                </h3>
+                                <p class="m-text">
+                                    生而为人,我们要有自己的个性和想法，要学会洒脱，更要学会隐忍，只要活得快乐，怎样过都行。人活着，总是避免不了闲言碎语，最好 的回击就是持续沉默，这不是没有底线的忍让，而是最有力的回击。
+                                </p>
+                                <!--文字标签-->
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini link list horizontal">
+                                            <!--用户信息（头像+用户名）-->
+                                            <div class="item">
+                                                <img src="https://picsum.photos/100/100/?image=1005" alt="" class="ui avatar image">
+                                                <div class="content">
+                                                    <a class="header">甄焰鑫</a>
+                                                </div>
+                                            </div>
+                                            <!--发布时间-->
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2018-04-09
+                                            </div>
+                                            <!--浏览次数-->
+                                            <div class="item">
+                                                <i class="eye icon"></i>2312
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--标签-->
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label me-padded-tiny m-text-thin">认知升级</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右侧图片-->
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <h3></h3>
+                                    <br>
+                                    <img src="https://picsum.photos/800/450/?image=1005" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--博客分页-->
+                <div class="ui bottom attached segment">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <a href="#" class="ui teal basic mini button">上一页</a>
+                        </div>
+                        <div class="right aligned column">
+                            <a href="#" class="ui teal basic mini button">下一页</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--右边博客导航部分-->
             <div class="five wide column">
-
+                <!--分类-->
+                <div class="ui segments">
+                    <div class="ui secondary segment">
+                        <!--顶部-->
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="idea icon"></i>分类
+                            </div>
+                            <div class="right aligned column">
+                                <a href="#" target="_blank">more<i class="angle double right icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--详细栏-->
+                    <div class="ui segment teal">
+                        <div class="ui fluid vertical menu">
+                            <a href="#" class="item">
+                                学习日志
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>
+                            <a href="#" class="item">
+                                思考与感悟
+                                <div class="ui teal basic left pointing label">34</div>
+                            </a>
+                            <a href="#" class="item">
+                                java 编程日志
+                                <div class="ui teal basic left pointing label">45</div>
+                            </a>
+                            <a href="#" class="item">
+                                错误分析
+                                <div class="ui teal basic left pointing label">8</div>
+                            </a>
+                            <a href="#" class="item">
+                                环境搭建
+                                <div class="ui teal basic left pointing label">63</div>
+                            </a>
+                            <a href="#" class="item">
+                                其他内容
+                                <div class="ui teal basic left pointing label">3</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--标签-->
+                <div class="ui segments m-margin-top-large">
+                    <div class="ui secondary segment">
+                        <!--顶部-->
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="tags icon"></i>标签
+                            </div>
+                            <div class="right aligned column">
+                                <a href="#" target="_blank">more<i class="angle double right icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui teal segment">
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            方法论 <div class="detail">10</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            方法论 <div class="detail">6</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            数据库 <div class="detail">19</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            java <div class="detail">42</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            算法 <div class="detail">55</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            数据结构 <div class="detail">64</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            操作系统 <div class="detail">1</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            计算机网络 <div class="detail">12</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            大数据 <div class="detail">106</div>
+                        </a>
+                        <a class="ui teal basic label m-margin-tb-tiny">
+                            C# <div class="detail">82</div>
+                        </a>
+                    </div>
+                </div>
+                <!--最新推荐-->
+                <div class="ui segments m-margin-top-large">
+                    <div class="ui secondary segment">
+                        <i class="bookmark icon"></i>最新推荐
+                    </div>
+                    <div class="ui segment ">
+                        <a href="#" class="m-black m-text-thin">java 编程</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#"  class="m-black m-text-thin">数据库系统</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#"  class="m-black m-text-thin">计算机网络</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#"  class="m-black m-text-thin">c# 窗体开发</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#"  class="m-black m-text-thin">操作系统</a>
+                    </div>
+                </div>
+                <!---二维码-->
+                <div class="ui horizontal divider header m-margin-top-large">
+                   <h4>扫码关注我</h4>
+                </div>
+                <div class="ui card centered" style="width:10em">
+                    <img src="static/images/wechat.jpg" alt="" class="ui rounded image ">
+                </div>
             </div>
         </div>
     </div>
@@ -60,7 +427,7 @@
 <footer class="ui inverted vertical segment me-padded-tb-massive">
     <div class="ui center aligned container">
         <!--分成4个格子-->
-        <div class="ui  inverted divided grid">
+        <div class="ui  inverted divided stackable grid">
             <!--图片格子-->
             <div class="three wide column">
                 <div class="ui inverted link list">
@@ -103,7 +470,7 @@
         </div>
         <!--底部版权声明-->
         <div class="ui inverted section divider"></div>
-        <p class="m-text-thin m-text-spaced m-opacity-mini">
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">
             Copyright © 2018 - 2019 Blog Designed by Zhenyanxin
         </p>
     </div>
@@ -111,5 +478,10 @@
 <!--jquery和semantic引用-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+</script>
 </body>
 </html>
