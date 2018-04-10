@@ -120,6 +120,10 @@ body{
 .m-mobile-show{
     display: none!important;
 }
+.m-shadow-small{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2)!important;
+    -webkit-box-shadow:0 4px 8px rgba(0,0,0,0.2)!important ;
+}
 /*------------------手机端----------------*/
 @media screen and (max-width:768px) {
     .m-mobile-hide{
@@ -134,5 +138,9 @@ body{
     }
     .m-mobile-wide{
         width: 100%!important;
+    }
+    .m-mobile-clear{
+        padding-right: 0!important;
+        padding-left: 0!important;
     }
 }
